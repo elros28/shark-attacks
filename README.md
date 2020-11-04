@@ -23,7 +23,7 @@ Simple analisys about sharks attacks using [this Kaggle dataset](https://www.kag
 ![Species_attacks](img/species-attacks.png?raw=true "Species_attacks")
 ![Species_fatality](img/species-fatality.png?raw=true "Species_fatality")
 
-### 3) From 5690, only 24.41% of the attacks were fatal:
+### 3) From 5690 attacks, only 24.41% were fatal:
 
 ![Fatality_total](img/fatality-total.png?raw=true "Fatality_total")
 
