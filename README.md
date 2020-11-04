@@ -1,14 +1,14 @@
-# shark-attacks :shark:
+# <center> :shark: :ocean: :shark: Shark Attacks :shark: :ocean: :shark: </center>
 
 Simple analisys about sharks attacks using [this Kaggle dataset](https://www.kaggle.com/teajay/global-shark-attacks "kaggle.com")
 
 ## Questions
 
-### 1) Is the frequency of shark attacks correlated to global warming?
+### 1) Is the frequency of shark attacks correlated to global warming? :sunny:
 
 ### 2) Are certain shark species more prone to attacking? :shark:
 
-### 3) How many reported attacks are lethal? 
+### 3) How many reported attacks are lethal? :knife:
 
 ### 4) Do sharks have preferences for female or male humans? :woman: :man:
 
