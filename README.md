@@ -27,6 +27,6 @@ Simple analisys about sharks attacks using [this Kaggle dataset](https://www.kag
 
 ![Fatality_total](img/fatality-total.png?raw=true "Fatality_total")
 
-### 4) From 5733 people, 88.89 were male:
+### 4) From 5733 people, 88.89% were male:
 
 ![Sex_total](img/sex-total.png?raw=true "Sex_total")
