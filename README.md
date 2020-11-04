@@ -20,7 +20,7 @@ Simple analisys about sharks attacks using [this Kaggle dataset](https://www.kag
 
 ### 2) Although the dataset is small, there are certain species that tend to register more attacks, but they aren't nessesarily the ones with more fatalities per incident:
 
-![Species_attacks](img/species-attack.png?raw=true "Species_attacks")
+![Species_attacks](img/species-attacks.png?raw=true "Species_attacks")
 ![Species_fatality](img/species-fatality.png?raw=true "Species_fatality")
 
 ### 3) From 5690, only 24.41% of the attacks were fatal:
