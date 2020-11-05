@@ -1,14 +1,14 @@
-# shark-attacks :shark:
+# <center> :shark: :ocean: :shark: Shark Attacks :shark: :ocean: :shark: </center>
 
 Simple analisys about sharks attacks using [this Kaggle dataset](https://www.kaggle.com/teajay/global-shark-attacks "kaggle.com")
 
 ## Questions
 
-### 1) Is the frequency of shark attacks correlated to global warming?
+### 1) Is the frequency of shark attacks correlated to global warming? :sunny:
 
 ### 2) Are certain shark species more prone to attacking? :shark:
 
-### 3) How many reported attacks are lethal? 
+### 3) How many reported attacks are lethal? :knife:
 
 ### 4) Do sharks have preferences for female or male humans? :woman: :man:
 
@@ -20,13 +20,13 @@ Simple analisys about sharks attacks using [this Kaggle dataset](https://www.kag
 
 ### 2) Although the dataset is small, there are certain species that tend to register more attacks, but they aren't nessesarily the ones with more fatalities per incident:
 
-![Species_attacks](img/species-attack.png?raw=true "Species_attacks")
+![Species_attacks](img/species-attacks.png?raw=true "Species_attacks")
 ![Species_fatality](img/species-fatality.png?raw=true "Species_fatality")
 
-### 3) From 5690, only 24.41% of the attacks were fatal:
+### 3) From 5690 attacks, only 24.41% were fatal:
 
 ![Fatality_total](img/fatality-total.png?raw=true "Fatality_total")
 
-### 4) From 5733 people, 88.89 were male:
+### 4) From 5733 people, 88.89% were male:
 
 ![Sex_total](img/sex-total.png?raw=true "Sex_total")
