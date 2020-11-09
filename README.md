@@ -1,32 +1,87 @@
 # <center> :shark: :ocean: :shark: Shark Attacks :shark: :ocean: :shark: </center>
 
-Simple analisys about sharks attacks using [this Kaggle dataset](https://www.kaggle.com/teajay/global-shark-attacks "kaggle.com")
+Simple analisys about sharks attacks using [this Kaggle dataset for attacks](https://www.kaggle.com/teajay/global-shark-attacks "kaggle.com") and [this dataset for global temperatures](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities "kaggle.com")
 
-## Questions
+# Main takeaways
+After an initial cleaning and filtering of the data, the following conclusions and observations could be made:
+## Correlation with rising temperatures
+According to the global dataset used (with aggregated mean temperatures by country and year), there was no correlation between the amount of shark attacks and temperature increase:
 
-### 1) Is the frequency of shark attacks correlated to global warming? :sunny:
+### Global
 
-### 2) Are certain shark species more prone to attacking? :shark:
+x | Year | Maximum | Median | Average
+------------ | ------------- | ------------- | ------------- | -------------
+Year |1.000000	|0.087513|	0.084496|	0.088113
+max_temp	|0.087513|	1.000000|	0.198585|	0.153631
+median_temp|	0.084496	|0.198585|	1.000000	|0.993841
+avg_temp|	0.088113|0.153631|	0.993841|	1.000000
+number|	0.020974|	0.578751	|-0.322988|	-0.367387
 
-### 3) How many reported attacks are lethal? :knife:
+### USA
 
-### 4) Do sharks have preferences for female or male humans? :woman: :man:
+x | Year | Maximum | Median | Average
+------------ | ------------- | ------------- | ------------- | -------------
+Year|	1.000000	|0.453210|	0.611918|	0.415605
+max_temp|	0.453210|	1.000000|	0.452817|	0.347630
+median_temp|	0.611918|	0.452817|	1.000000|	0.810382
+avg_temp|	0.415605|	0.347630|	0.810382|	1.000000
+number|	0.376775|	0.402628|	0.497183|	0.277862
 
-## Results
+### Australia
 
-### 1) Even though one would assume some kind of correlation between the rising temperatures and the number of shark attacks, this data suggests otherwise ([using this dataset for temperatures](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities "kaggle.com")), although you can see a rise in temperatures through the years
+x | Year | Maximum | Median | Average
+------------ | ------------- | ------------- | ------------- | -------------
+Year|	1.000000|	0.305441|	0.807577|	0.804839
+max_temp|	0.305441|	1.000000|	0.392914|	0.399139
+median_temp|	0.807577|	0.392914|	1.000000|	0.960049
+avg_temp|	0.804839|	0.399139|	0.960049|	1.000000
+number|	0.841498|	0.459499|	0.670071|	0.665683
 
-![Temperatures](img/corr.png?raw=true "Temperatures")
+### South Africa
 
-### 2) Although the dataset is small, there are certain species that tend to register more attacks, but they aren't nessesarily the ones with more fatalities per incident:
+x | Year | Maximum | Median | Average
+------------ | ------------- | ------------- | ------------- | -------------
+Year|	1.000000|	0.674573|	0.587306|	0.711466
+max_temp|	0.674573|	1.000000|	0.472851|	0.653795
+median_temp|	0.587306|	0.472851|	1.000000|	0.863464
+avg_temp|	0.711466|	0.653795|	0.863464|	1.000000
+number|	0.043982|	0.232161|	0.109889|	0.117747
 
-![Species_attacks](img/species-attacks.png?raw=true "Species_attacks")
-![Species_fatality](img/species-fatality.png?raw=true "Species_fatality")
 
-### 3) From 5690 attacks, only 24.41% were fatal:
+## Countries
+As expected the top three countries with more shark attack victims are USA, Australia and South Africa. Long after them, Papua New Guinea, New Zealand, Brazil and Mexico follow, with other Asian and African countries and islands in the tail:
 
-![Fatality_total](img/fatality-total.png?raw=true "Fatality_total")
+### Top 3
 
-### 4) From 5733 people, 88.89% were male:
+![Top 3](img/top3_map.png)
 
-![Sex_total](img/sex-total.png?raw=true "Sex_total")
+### Tailing
+
+![Tail](img/excluding_top_3_map.png)
+
+## Species
+Fueling the popular belief, the Great White Shark is the shark species claiming most victims (623) and deaths by quite much. Its followers are the Tiger Shark with 258 victims and the Bull Shark with 170.
+
+![Species](img/species_attacks.png)
+
+More than a third of the attacks reported annually involve a White Shark:
+
+![White Shark](img/white_shark_attacks.png)
+
+## Lethality
+Even though a shark attack may sound fatal, less than a quarter of them involves a human death, all this considering that a fifth of the attacks are provoked by the human in question:
+
+![Fatal](img/fatality.png) ![Type](img/type.png)
+
+## Victims
+### Sex
+
+![Sex](img/sex.png)
+
+### Age
+
+![Age](img/age.png)
+
+### Activity
+
+![Activity](img/activity.png)
