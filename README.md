@@ -55,13 +55,15 @@ number|	0.043982|	0.232161|	0.109889|	0.117747
 
 ## Countries
 
-As expected the top three countries with more shark attack victims are USA, Australia and South Africa. Long after them, Papua New Guinea, New Zealand, Brazil and Mexico follow, with other Asian and African countries and islands in the tail:
-
 ### Top 3
+
+As expected the top three countries with more shark attack victims are USA, Australia and South Africa:
 
 ![Top 3](img/top3_map.png)
 
 ### Tailing
+
+Long after them, Papua New Guinea, New Zealand, Brazil and Mexico follow, with other Asian and African countries and islands in the tail:
 
 ![Tail](img/excluding_top_3_map.png)
 
