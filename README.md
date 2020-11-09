@@ -87,6 +87,8 @@ Lethality | Attack Type
 
 Following information regarding the victims, almost 90% are male, the main age range is 18-35 and the two activities at the moment of the attack that amass the most cases are Surfing (including its variants as windsurfing,kite surfing, etc.) and Swimming:
 
+![Victims](img/victims.png)
+
 Sex | Age | Activity at the attack
 ------------ | ------------- | -------------
 ![Sex](img/sex.png) | ![Age](img/age.png) | ![Activity](img/activity.png)
