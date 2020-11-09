@@ -3,8 +3,11 @@
 Simple analisys about sharks attacks using [this Kaggle dataset for attacks](https://www.kaggle.com/teajay/global-shark-attacks "kaggle.com") and [this dataset for global temperatures](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities "kaggle.com")
 
 # Main takeaways
+
 After an initial cleaning and filtering of the data, the following conclusions and observations could be made:
+
 ## Correlation with rising temperatures
+
 According to the global dataset used (with aggregated mean temperatures by country and year), there was no correlation between the amount of shark attacks and temperature increase:
 
 ### Global
@@ -16,6 +19,8 @@ max_temp	|0.087513|	1.000000|	0.198585|	0.153631
 median_temp|	0.084496	|0.198585|	1.000000	|0.993841
 avg_temp|	0.088113|0.153631|	0.993841|	1.000000
 number|	0.020974|	0.578751	|-0.322988|	-0.367387
+
+Not even disaggregating by the top 3 countries with most attacks:
 
 ### USA
 
@@ -49,6 +54,7 @@ number|	0.043982|	0.232161|	0.109889|	0.117747
 
 
 ## Countries
+
 As expected the top three countries with more shark attack victims are USA, Australia and South Africa. Long after them, Papua New Guinea, New Zealand, Brazil and Mexico follow, with other Asian and African countries and islands in the tail:
 
 ### Top 3
@@ -60,6 +66,7 @@ As expected the top three countries with more shark attack victims are USA, Aust
 ![Tail](img/excluding_top_3_map.png)
 
 ## Species
+
 Fueling the popular belief, the Great White Shark is the shark species claiming most victims (623) and deaths by quite much. Its followers are the Tiger Shark with 258 victims and the Bull Shark with 170.
 
 ![Species](img/species_attacks.png)
@@ -68,20 +75,16 @@ More than a third of the attacks reported annually involve a White Shark:
 
 ![White Shark](img/white_shark_attacks.png)
 
-## Lethality
+## Victims
+
 Even though a shark attack may sound fatal, less than a quarter of them involves a human death, all this considering that a fifth of the attacks are provoked by the human in question:
 
-![Fatal](img/fatality.png) ![Type](img/type.png)
+Lethality | Attack Type
+------------ | -------------
+![Fatal](img/fatality.png) | ![Type](img/type.png)
 
-## Victims
-### Sex
+Following information regarding the victims, almost 90% are male, the main age range is 18-35 and the two activities at the moment of the attack that amass the most cases are Surfing (including its variants as windsurfing,kite surfing, etc.) and Swimming:
 
-![Sex](img/sex.png)
-
-### Age
-
-![Age](img/age.png)
-
-### Activity
-
-![Activity](img/activity.png)
+Sex | Age | Activity at the attack
+------------ | ------------- | -------------
+![Sex](img/sex.png) | ![Age](img/age.png) | ![Activity](img/activity.png)
