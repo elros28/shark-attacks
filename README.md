@@ -1,6 +1,6 @@
 # <center> :shark: :ocean: :shark: Shark Attacks :shark: :ocean: :shark: </center>
 
-Simple analisys about sharks attacks using [this Kaggle dataset for attacks](https://www.kaggle.com/teajay/global-shark-attacks "kaggle.com") and [this dataset for global temperatures](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities "kaggle.com")
+Simple analysis about sharks attacks using [this Kaggle dataset for attacks](https://www.kaggle.com/teajay/global-shark-attacks "kaggle.com") and [this dataset for global temperatures](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities "kaggle.com")
 
 # Main takeaways
 
@@ -55,7 +55,7 @@ Attacks|	0.043982|	0.232161|	0.109889|	0.117747
 
 ## Countries :round_pushpin:
 
-### :top: 3 
+### Top 3 
 
 As expected the top three countries with more shark attack victims are USA, Australia and South Africa:
 
