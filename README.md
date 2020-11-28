@@ -89,10 +89,15 @@ Following information regarding the victims, almost 90% are male, the main age r
 
 ![Victims](img/victims.png)
 
-Sex |
------------- |
+
 ![Sex](img/sex.png) |
-Age |
+------------ |
+*Sex* |
+
 ![Age](img/age.png) |
-Activity at the attack|
+------------ |
+*Age* |
+
 ![Activity](img/activity.png)
+------------ |
+*Activity at the attack*|
